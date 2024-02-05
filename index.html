@@ -18,9 +18,12 @@
 </div>
 <script type="text/javascript"  src="./script/jquery.min.js"></script>
  <script  src="js/index.js"></script>
+  
+<script src="dist/ackee-tracker.min.js"></script>
 
-<script async src="https://ackee.vfiles.no/tracker.js" data-ackee-server="https://ackee.vfiles.no" data-ackee-domain-id="0c505060-5983-4d1f-b870-8e66f3b10fd2" data-ackee-opts='{ "detailed": true }'></script>
-
+<script>
+	ackeeTracker.create('https://ackee.vfiles.no').record('0c505060-5983-4d1f-b870-8e66f3b10fd2')
+</script>
 </body>
 
 </html>
